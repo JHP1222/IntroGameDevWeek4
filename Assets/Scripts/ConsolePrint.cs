@@ -6,12 +6,12 @@ public class ConsolePrint : MonoBehaviour
 {
     public GameObject redObj;
     [SerializeField] private GameObject blueObj;
-    public int counter = 3; 
+    public int counter; 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        counter = 3;
     }
 
     // Update is called once per frame
