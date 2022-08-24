@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConsolePrint : MonoBehaviour
+public class PrintAndHide : MonoBehaviour
 {
     public GameObject redObj;
     [SerializeField] private GameObject blueObj;
-    public int counter; 
+    public int counter;
+    public Renderer rend;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class ConsolePrint : MonoBehaviour
     void Update()
     {
         counter++;
-        Debug.Log(gameObject.name + counter);
+        Debug.Log(gameObject.name+":"+counter);
         
     }
 }
