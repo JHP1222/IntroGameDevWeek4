@@ -110,7 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a0b196ef50e4aae8a03091a7330e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redObj: {fileID: 2530012513212867784}
-  blueObj: {fileID: 6928997677635936323, guid: 3207b38deb21e4cf2a3d419ef9483dd1, type: 3}
+  redObj: {fileID: 0}
+  blueObj: {fileID: 0}
   counter: 0
   rend: {fileID: 2096893500147757982}
+  rand: 0
